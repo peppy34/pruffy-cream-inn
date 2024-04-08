@@ -1,0 +1,163 @@
+.nav-link:hover{
+        background-color: #d0e5f7;
+    }
+    .nav-link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: larger;
+    }
+
+    .carousel-item img{
+        width:60%;
+        height: 400px;
+        justify-content: center;
+    }
+.contact-us{
+    text-emphasis: none;
+    text-align: center;
+    padding-inline-start: 20;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 9px;
+}
+.col-md-10{
+ display: grid; 
+ place-items: centre;
+ height: 100vh;/*full viewpoint height*/
+ padding: 20rem;
+ padding-top: 5rem;
+}
+
+.col-md-7 {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional: Background color for visualization */
+}
+
+#card {
+  /* Add any additional styles you want for the card */
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  padding-left: 20rem;
+
+}
+
+.footer{
+  width: 100%;
+  background-color: palevioletred;
+}
+.pre-text{
+    background-color: #faf0e6;
+    width: 100px;
+}
+.pre-text:hover{
+    background-color:pink
+     ;
+}
+table{
+    margin-left: 200px;
+    justify-content: center;
+    width: 100%;
+}.image{
+    transform: scale(1,1)rotate(360deg);
+    }
+    p{
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration-color: violet;
+
+    }
+    .product{
+        margin-bottom: 30px;
+        margin-top: 20px;
+
+    }
+    .product-image{
+        width: 80%;
+        height: 250px;
+        transition: transform 3s ease;
+    
+    }
+    button{
+        background-color: pink;
+        width: 500px;
+        height: 50px;
+    }
+     /* Custom styling for the divs */
+   .image-container {
+    background-color: pink /* Light gray background color */;
+    padding: 60px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    height: 250px;
+    width:250px;
+   }
+    .image-fliud:hover{
+      background-color:blue;
+    }
+    .text{
+      font-size: 11px;
+      color:#413839;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration-color:#413839 ;
+    }
+    .product {
+      margin-bottom:30px;
+      margin-top:20px ;
+  }
+  .product img {
+      width: 80%;
+      height: 250px;
+      transition: transform 3s ease;
+      padding-top: 20px;
+  }
+
+ 
+  button{
+    background-color: palevioletred;
+    width: 400px;
+    height: 50px;
+  }
+  .col-md-3{
+    background-color:palevioletred;
+  }
+  .col-md-6{
+    background-color: palevioletred;
+  }
+  .col-md-10{
+    width: auto;
+  }
+#our-services{
+  background-color:  #8f9fa8; 
+  padding: 50px;
+}
+.card{
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-title{
+  font-weight: bold;
+}
+.card-text{
+font-style: italic;
+color: black;
+}
+
+
+
+  .product img:hover {
+    transform: scale(1.3); /* Change the scale factor as needed */
+     transition: transform 0.3s ease; /* Add transition for smooth effect */
+  }
+ 
